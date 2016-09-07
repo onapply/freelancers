@@ -1,0 +1,60 @@
+.navbar {
+}
+
+.header img {
+    /*max-height: 200px;*/
+}
+
+.header {
+}
+.positionNameMd {
+    font-size: 1.7em;
+}
+
+.navbarLogo {
+    max-height: 50px;
+    margin: 0px 15px 5px 0px;
+}
+
+.navbarView {
+    height:70px;
+}
+
+.navbar-text {
+    margin-top: 10px!important;
+}
+
+.logoAndPositionName {
+    float: left;
+}
+
+.navbarMobile {
+    height: 70px;
+}
+
+.navbarTop {
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.11) 0px -3px 3px 0px, rgba(0, 0, 0, 0.2) 0px 2px 2px 0px;
+}
+
+.navbar-brand {
+    padding: 10px 5px;
+}
+
+h3 {
+    margin-top: 10px!important;
+    margin-bottom: 5px;
+}
+
+.mdl-layout__header {
+    color: #777!important;
+    background-color: #FFFFFF!important;
+}
+
+.header-title-organisation-name {
+    padding: 0 0 10px 0;
+}
+
+.mdl-layout-title-text {
+    padding: 0 0 0 20px;
+}

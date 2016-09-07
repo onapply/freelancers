@@ -1,0 +1,24 @@
+.footerInformation {
+    padding: 0 15px 0 15px;
+}
+
+.navbarFooter {
+    margin: 50px 0 0 0;
+    border-top: solid 1px #BDBDBD;
+    padding: 10px 0 0 0;
+}
+
+.footer {
+    margin: 30px 0 0 0;
+    padding: 10px 16px!important;
+    background-color: #fafafa!important;
+}
+
+@media screen and (min-width: 760px) {
+    .mdl-mega-footer--right-section a, .mdl-mega-footer__right-section a {
+        display: inline-block;
+        margin-left: 0px !important;
+        line-height: 0px !important;
+        vertical-align: baseline!important;
+    }
+}

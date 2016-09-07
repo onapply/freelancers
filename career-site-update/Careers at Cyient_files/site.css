@@ -1,0 +1,165 @@
+html, body {
+    font-family: 'Roboto', sans-serif!important;
+}
+
+.organisationLogo {
+    height: 60px;
+}
+
+.jobOpening {
+    border-top: 1px solid #eee;
+    padding: 20px 0 20px 0;
+}
+.jobOpening:last-child {
+    border-bottom: 1px solid #eee;
+}
+.jobOpening:hover {
+    background-color: #FAFAFA;
+}
+.noPadding {
+    padding: 0px 0px 0px 0px!important;
+}
+body {
+}
+
+.container-link-application {
+    margin: 0 0 10px 0;
+}
+
+a.linkApplication:visited {
+    color: #333;
+}
+a.linkApplication:link {
+    color: #333;
+}
+.grey {
+    color: #757575;
+}
+
+.custom-html img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+.ribbon {
+    width: 100%;
+    height: 40vh;
+    flex-shrink: 0;
+}
+
+.demo-main {
+    margin-top: -35vh;
+    flex-shrink: 0;
+}
+
+.demo-header .mdl-layout__header-row {
+    padding-left: 40px;
+}
+
+.demo-container {
+    max-width: 1600px;
+    width: calc(100% - 16px);
+    margin: 0 auto;
+}
+
+.content-list {
+    border-radius: 2px;
+    padding: 80px 56px;
+    margin-bottom: 80px;
+}
+
+.demo-layout.is-small-screen .demo-content {
+    padding: 40px 28px;
+}
+
+.demo-content h3 {
+    margin-top: 48px;
+}
+
+.footer .mdl-mini-footer--link-list a {
+    font-size: 13px;
+}
+
+.footer {
+    padding-left: 40px;
+    background-color: #ffffff;
+}
+
+.content-view {
+    border-radius: 2px;
+    padding: 10px 0px;
+    margin-bottom: 80px;
+}
+
+.container-button-apply {
+    margin: 20px 0 40px 0;
+}
+
+
+@media (max-width: 479px) {
+    .content-list {
+        padding: 10px 10px!important;
+        margin-bottom: 80px!important;
+    }
+}
+
+.button-back {
+    color: #000000!important;
+    background-color: #E0E0E0!important;
+}
+
+.embed-responsive {
+    margin: 20px 0 0 0;
+    min-height: 24cm;
+}
+
+.embed-google-doc {
+    min-height: 700px;
+}
+
+.jobad-text-container {
+    margin: 20px 0px 20px 0px;
+}
+.col-md-8-jobad {
+    max-width: 740px;
+}
+.container-job-ad {
+    box-shadow: rgba(0, 0, 0, 0.11) 0px -1px 2px 0px, rgba(0, 0, 0, 0.23) 0px 1px 1px 0px;
+}
+
+ol {
+    counter-reset: foo;
+    display: table;
+}
+
+ol > li {
+    counter-increment: foo;
+    display: table-row;
+}
+
+ol > li::before {
+    content: counter(foo) ".";
+    display: table-cell;
+    text-align: right;
+}
+
+ul {
+    display: table;
+    list-style-position: inside;
+}
+
+ul > li {
+    display: table-row;
+}
+
+ul > li::before {
+    content: '\2022\00a0';
+    display: table-cell; /* aha! */
+    text-align: right;
+    font-size: 20px;
+}
+
+#toolbarContainer {
+    display: none!important;
+}

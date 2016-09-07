@@ -1,0 +1,7 @@
+.white, a.white {
+    color: #ffffff!important;
+}
+
+.white:visited, a.white:visited {
+    color: #ffffff;
+}
